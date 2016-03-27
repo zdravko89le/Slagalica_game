@@ -1,0 +1,112 @@
+body {
+	background-color:rgb(166, 203, 241);
+}
+#container {
+	width:700px;
+	height: 100%;
+	margin: auto;
+}
+#slagalica {
+	/*width: 650px;*/
+	/*height: 490px;*/
+	position: absolute;
+	padding-top: 5px;
+	padding-bottom:	5px; 
+	padding-left: 5px;
+	padding-right: 5px;
+	border-style: solid;
+	border-color: black;
+	background-color: rgb(0, 113, 153);
+}
+
+.field {
+	width: 75px;
+	height: 75px;
+	background-color: rgb(128, 222, 255);
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+	float: left;
+	/*background-image: url('karte/pik.png');*/
+	/*img.src: url('karte/pik.png');*/
+}
+
+.answer {
+	width: 75px;
+	height: 75px;
+	background-color: rgb(128, 222, 255);
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+	float: left;	
+}
+
+#row7 {
+	border-top-style: solid;
+	border-color: black;
+}
+
+.check {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(194, 214, 214);
+	border-radius: 50px;
+	margin-left: 5px;
+	margin-top: 20px;
+	float: left;
+	/*background-image: url('karte/pik.png');*/
+}
+
+.vertical_line{
+	height:75px; 
+	width:1px;
+	background:#0000ff;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+}
+
+.row {
+	float: left;
+}
+
+.rowAnswer {
+	margin-left: 28px;
+    margin-top: 20px;	
+}
+
+#slika {
+	/*content: url('karte/pik.png');*/
+}
+
+.lastrow {
+	margin-bottom: 5px;
+}
+#pik {
+	content: url('karte/pik.png');
+}
+#herc {
+	content: url('karte/srce.png');
+}
+#karo {
+	content: url('karte/karo.png');
+}
+#tref {
+	content: url('karte/tref.png');
+}
+#zvezda {
+	content: url('karte/zvezda.png');
+}
+#skocko {
+	content: url('karte/smajli.png');
+}
+#timer {
+	float: left;
+	margin-top: 5px;
+    margin-left: 5px;
+    /* width: 100%; */
+    height: 75px;
+    width: 220px;
+    text-align: center;
+    font-size: 79px;
+}
